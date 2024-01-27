@@ -1,14 +1,48 @@
 
 * {
     box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
 }
 
 /** base **/
 
+h1 {
+    text-align: center;
+}
+
 .container {
-    border: 2px;
-    border-color: black;
+    border: 2px solid black;
     background-color: grey;
+    margin: 1%;
+}
+
+.menu-item {
+    float: right;
+    float: up;
+    border: 2px solid black;
+    padding: 1% 10%;
+    font-size: 120%;
+
+}
+
+.description {
+    clear: right;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.red {
+    background-color: red;
+}
+
+.beige {
+    background-color: beige;
+}
+
+.white {
+    color: white;
 }
 
 /** large **/
